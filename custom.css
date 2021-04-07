@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.GPA-Section input{
+	    width: 55px;
+	    height: 29px;
+		margin-left: 5%;
+		text-align: center;
+	}
+	.CGPA-Section input{
+	    width: 55px;
+	    height: 29px;
+		margin-left: 30px;
+		padding: 5px;
+		text-align: center;
+		font-weight: 500;
+	}
+	.GPA-Section select{
+		margin-left: 20px;
+	}
+	.Main-Div{
+		margin: 5%;
+		text-align: center;
+	}
+	.Main-Div .cen{
+		font-weight: bold;
+	}
+	.Dis_Cal_Sum input{
+		margin-left: 265px;
+		width: 55px;
+	    height: 29px;
+		text-align: center;
+	}
+	#Grade_Value{
+		margin-left: 182px;
+	}
+	#CH_Value{
+		margin-left: 23px;
+	}
+	#CGPA{
+		margin-left: 255px;
+	}
+	#T_Credit_Hours{
+		margin-left: 12px;
+	}
+	#C_CGPA{
+		margin-left: 32px;
+	}
+	.Header b{
+		margin-right: 30px;
+	}
+	#btn1{
+		margin-left: 31%;
+	}
+	span{
+		colo: #0065ff;
+	}
