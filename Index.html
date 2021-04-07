@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GPA Calculator</title>
+
+
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <!-- Custom CSS -->
+<link rel="stylesheet" href="custom.css">
+   
+</head>
+<body>
+
+<div class="Main-Div">
+	<h2><a href="#"><span title="University Of Sialkot">USKT </span>CGPA Calculator</a></h2>
+	<img src="https://1.bp.blogspot.com/-YGacr8xvhVY/YCWbxiX6kWI/AAAAAAAAA1E/dKX3RNZWYpwX50dvfzL9mG0Du4CIz0q9QCLcBGAsYHQ/s600/USKT%2BGPA%2BCalculator%2BCGPA%2BCalculator.JPG" alt="USKT Grade" class="img-responsive center-block"/>
+	<p class="cen">Designed for <span title="University Of Sialkot">Uskt</span> Student By Abdul Saboor</p>
+	
+	<br>
+	<div class="CGPA-Section">
+		<label>Current CGPA</label>
+		<input type="text" id="C_CGPA"><br><br>
+		<label>Total Credit Hour</label>
+		<input type="text" id="T_Credit_Hours">
+	</div>
+	<br>
+	<div class="Header">
+		<b>#</b><b>Grade</b><b>Points</b><b> Credit Hours</b><b>Grade Points</b>
+	</div>
+	<br>
+	<div class="GPA-Section">
+		<span><b>1</b></span>
+		<select name="Grade_Alpha_1" onclick="Get_Points(0)">
+			<option selected="" value="">Select</option>
+			<option value="4.0">A+</option>
+			<option value="3.66">A</option> 
+			<option value="3.33">B+</option>
+			<option value="3.0">B</option>
+			<option value="2.66">B-</option>
+			<option value="2.33">C+</option>
+			<option value="2.0">C</option>
+			<option value="1.66">C-</option>
+			<option value="1.33">D+</option>
+			<option value="1.0">D</option>
+			<option value="0.0">F</option>
+		</select>
+			<input readonly type="text" name="Point_1">  
+		<select name="Credit_Hours_1" onclick="Get_Grade_Points(0)">
+			<option selected="" value="">Select</option>
+			<option value="1">1</option>
+			<option value="2">2</option> 
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+			<input readonly type="text" name="Grade_Point_1">
+
+		<br>
+		<br>
+
+		<span><b>2</b></span>
+		<select name="Grade_Alpha_1" onclick="Get_Points(1)">
+			<option selected="" value="">Select</option>
+			<option value="4.0">A+</option>
+			<option value="3.66">A</option> 
+			<option value="3.33">B+</option>
+			<option value="3.0">B</option>
+			<option value="2.66">B-</option>
+			<option value="2.33">C+</option>
+			<option value="2.0">C</option>
+			<option value="1.66">C-</option>
+			<option value="1.33">D+</option>
+			<option value="1.0">D</option>
+			<option value="0.0">F</option>
+		</select>
+			<input type="text" name="Point_1">  
+		<select name="Credit_Hours_1" onclick="Get_Grade_Points(1)">
+			<option selected="" value="">Select</option>
+			<option value="1">1</option>
+			<option value="2">2</option> 
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+			<input type="text" name="Grade_Point_1">
+		
+		<br>
+		<br>
+
+		<span><b>3</b></span>
+		<select name="Grade_Alpha_1" onclick="Get_Points(2)">
+			<option selected="" value="">Select</option>
+			<option value="4.0">A+</option>
+			<option value="3.66">A</option> 
+			<option value="3.33">B+</option>
+			<option value="3.0">B</option>
+			<option value="2.66">B-</option>
+			<option value="2.33">C+</option>
+			<option value="2.0">C</option>
+			<option value="1.66">C-</option>
+			<option value="1.33">D+</option>
+			<option value="1.0">D</option>
+			<option value="0.0">F</option>
+		</select>
+			<input type="text" name="Point_1">  
+		<select name="Credit_Hours_1" onclick="Get_Grade_Points(2)">
+			<option selected="" value="">Select</option>
+			<option value="1">1</option>
+			<option value="2">2</option> 
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+			<input type="text" name="Grade_Point_1">
+		<br>
+		<br>
+
+		<span><b>4</b></span>
+		<select name="Grade_Alpha_1" onclick="Get_Points(3)">
+			<option selected="" value="">Select</option>
+			<option value="4.0">A+</option>
+			<option value="3.66">A</option> 
+			<option value="3.33">B+</option>
+			<option value="3.0">B</option>
+			<option value="2.66">B-</option>
+			<option value="2.33">C+</option>
+			<option value="2.0">C</option>
+			<option value="1.66">C-</option>
+			<option value="1.33">D+</option>
+			<option value="1.0">D</option>
+			<option value="0.0">F</option>
+		</select>
+			<input type="text" name="Point_1">  
+		<select name="Credit_Hours_1" onclick="Get_Grade_Points(3)">
+			<option selected="" value="">Select</option>
+			<option value="1">1</option>
+			<option value="2">2</option> 
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+			<input type="text" name="Grade_Point_1">
+		<br>
+		<br>
+		<span><b>5</b></span>
+		<select name="Grade_Alpha_1" onclick="Get_Points(4)">
+			<option selected="" value="">Select</option>
+			<option value="4.0">A+</option>
+			<option value="3.66">A</option> 
+			<option value="3.33">B+</option>
+			<option value="3.0">B</option>
+			<option value="2.66">B-</option>
+			<option value="2.33">C+</option>
+			<option value="2.0">C</option>
+			<option value="1.66">C-</option>
+			<option value="1.33">D+</option>
+			<option value="1.0">D</option>
+			<option value="0.0">F</option>
+		</select>
+			<input type="text" name="Point_1">  
+		<select name="Credit_Hours_1" onclick="Get_Grade_Points(4)">
+			<option selected="" value="">Select</option>
+			<option value="1">1</option>
+			<option value="2">2</option> 
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+			<input type="text" name="Grade_Point_1">
+		<br>
+		<br>
+
+		<span><b>6</b></span>
+		<select name="Grade_Alpha_1" onclick="Get_Points(5)">
+			<option selected="" value="">Select</option>
+			<option value="4.0">A+</option>
+			<option value="3.66">A</option> 
+			<option value="3.33">B+</option>
+			<option value="3.0">B</option>
+			<option value="2.66">B-</option>
+			<option value="2.33">C+</option>
+			<option value="2.0">C</option>
+			<option value="1.66">C-</option>
+			<option value="1.33">D+</option>
+			<option value="1.0">D</option>
+			<option value="0.0">F</option>
+		</select>
+			<input type="text" name="Point_1">  
+		<select name="Credit_Hours_1" onclick="Get_Grade_Points(5)">
+			<option selected="" value="">Select</option>
+			<option value="1">1</option>
+			<option value="2">2</option> 
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+			<input type="text" name="Grade_Point_1">
+		<br>
+		<br>
+
+		<span><b>7</b></span>
+		<select name="Grade_Alpha_1" onclick="Get_Points(6)">
+			<option selected="" value="">Select</option>
+			<option value="4.0">A+</option>
+			<option value="3.66">A</option> 
+			<option value="3.33">B+</option>
+			<option value="3.0">B</option>
+			<option value="2.66">B-</option>
+			<option value="2.33">C+</option>
+			<option value="2.0">C</option>
+			<option value="1.66">C-</option>
+			<option value="1.33">D+</option>
+			<option value="1.0">D</option>
+			<option value="0.0">F</option>
+		</select>
+			<input type="text" name="Point_1">  
+		<select name="Credit_Hours_1" onclick="Get_Grade_Points(6)">
+			<option selected="" value="">Select</option>
+			<option value="1">1</option>
+			<option value="2">2</option> 
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+			<input type="text" name="Grade_Point_1">
+		<br>
+		<br>
+
+		<span><b>8</b></span>
+		<select name="Grade_Alpha_1" onclick="Get_Points(7)">
+			<option selected="" value="">Select</option>
+			<option value="4.0">A+</option>
+			<option value="3.66">A</option> 
+			<option value="3.33">B+</option>
+			<option value="3.0">B</option>
+			<option value="2.66">B-</option>
+			<option value="2.33">C+</option>
+			<option value="2.0">C</option>
+			<option value="1.66">C-</option>
+			<option value="1.33">D+</option>
+			<option value="1.0">D</option>
+			<option value="0.0">F</option>
+		</select>
+			<input type="text" name="Point_1">  
+		<select name="Credit_Hours_1" onclick="Get_Grade_Points(7)">
+			<option selected="" value="">Select</option>
+			<option value="1">1</option>
+			<option value="2">2</option> 
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+			<input type="text" name="Grade_Point_1">
+		<br>
+		<br>
+
+		<span><b>9</b></span>
+		<select name="Grade_Alpha_1" onclick="Get_Points(8)">
+			<option selected="" value="">Select</option>
+			<option value="4.0">A+</option>
+			<option value="3.66">A</option> 
+			<option value="3.33">B+</option>
+			<option value="3.0">B</option>
+			<option value="2.66">B-</option>
+			<option value="2.33">C+</option>
+			<option value="2.0">C</option>
+			<option value="1.66">C-</option>
+			<option value="1.33">D+</option>
+			<option value="1.0">D</option>
+			<option value="0.0">F</option>
+		</select>
+			<input type="text" name="Point_1">  
+		<select name="Credit_Hours_1" onclick="Get_Grade_Points(8)">
+			<option selected="" value="">Select</option>
+			<option value="1">1</option>
+			<option value="2">2</option> 
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</select>
+			<input type="text" name="Grade_Point_1">
+		
+		<br/>
+		<br/>
+		
+		<button id="btn1" class="btn btn-info" onClick="Sum_of_Indexes()">Calculate</button><br><br>
+
+		<div class="Dis_Cal_Sum">
+			<label>Sum: </label>
+			<input type="text" id="Grade_Value">
+			<input type="text" id="CH_Value"><br><br>
+			<label>GPA: </label>
+			<input type="text" id="GPA"><br><br>
+			<label>CGPA: </label>
+			<input type="text" id="CGPA">
+		</div>
+	</div>
+</div>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
